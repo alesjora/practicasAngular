@@ -3,6 +3,7 @@
 </p>
 <a [href]="url">Curso de Angular</a>
 <a href="{{ url }}">Curso de Angular</a>
-<button [disabled]="desactivado">Desactivado</button>
+<button [disabled]="desactivado" (click)="interpolarOtraCosa()">Desactivado</button>
 <button [disabled]="!desactivado">Desactivado</button>
+<button (click)="intercambiar()">Intercambiar</button>
 
